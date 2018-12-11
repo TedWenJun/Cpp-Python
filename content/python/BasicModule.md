@@ -1,7 +1,7 @@
 ---
 title: "Baisc Module"
 #layout: single
-permalink: /:categories/:title
+
 ---
 
 <a>{{page.path}}</a>
