@@ -6,6 +6,8 @@ author_profile: true
 
 classes: wide
 
+toc: true
+
 ---
 
 这是第10次测试
