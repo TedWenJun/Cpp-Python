@@ -7,8 +7,8 @@ main:
     url: {{docs/docs/quick-start-guide.md}}
 
   - title: "Python"
-    url: 
- 
+    url:
+
 # Side Menu Table
 docs:
   - title: Getting Started
@@ -21,3 +21,8 @@ docs:
         url: /docs/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
+
+python:
+  - title: Basic Module
+    children:
+      - title: "Sys Module"
