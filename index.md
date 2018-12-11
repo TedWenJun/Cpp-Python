@@ -10,6 +10,7 @@ header:
   image: assets/images/HomeBanner.jpg
 
 ---
+
 {{page.path}}
 {{site.baseurl}}
 
