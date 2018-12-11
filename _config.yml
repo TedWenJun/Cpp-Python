@@ -300,5 +300,4 @@ defaults:
       related: true
 
 # Banner Image
-header:
-  image: assets/images/HomeBanner.jpg
+
