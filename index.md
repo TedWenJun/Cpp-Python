@@ -7,6 +7,8 @@ toc_icon: "fas fa-bars"
 
 header:
     image: assets/images/HomeBanner.jpg
+sidebar:
+    nva: "docs"
 
 ---
 
