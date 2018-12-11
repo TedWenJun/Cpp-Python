@@ -32,8 +32,10 @@ void main()
 ```
 
 **Caution:**这里是提示信息
+{: .notice--warning}
 
 **Note:**这里是笔记信息
+{: .notice--info}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTE5OTAzNV19
+eyJoaXN0b3J5IjpbMTE0NjIwMzUzNV19
 -->
