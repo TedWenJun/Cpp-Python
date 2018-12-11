@@ -1,12 +1,12 @@
 ---
 title: "Baisc Module"
 #layout: single
-
+permalink: /:categories/:title
 ---
 
-{{page.path}}
+<a>{{page.path}}</a>
 
-{{page.title}}
+1st update
 
 # Python Basic Module
 ```Python
