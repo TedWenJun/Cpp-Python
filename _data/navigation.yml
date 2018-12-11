@@ -1,7 +1,14 @@
 # main links
 main:
+  - title: "Maya"
+    url:
+
   - title: "C++"
     url: docs/
+
+  - title: "Python"
+    url: 
+
 
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
