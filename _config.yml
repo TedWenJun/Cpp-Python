@@ -105,11 +105,11 @@ author:
   email            : #"948491106@qq.com"
   links:
     - label: "Wechat"
-      icon: "fab fa-weixin"
+      icon: "fab fa-fw fa-weixin"
       url: 
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:your.name@email.com
+      #url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
