@@ -29,3 +29,9 @@ void main()
 	cout << "Hello World" << endl;
 }
 ```
+
+**Caution:**
+这里是提示信息
+
+**Note:**
+这里是笔记信息
