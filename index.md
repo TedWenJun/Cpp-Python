@@ -1,9 +1,7 @@
 ---
-
 layout: home
 
 author_profile: true
-
 ---
 
 这是第6次测试
@@ -12,8 +10,6 @@ author_profile: true
 - [LinkToP1](content/CPP/P1.md)
 - [LinkToP2](content/Python/P2.md)
 
-
-{{site.data.TestList.docs_list_title}}
 
 本段是Python 的测试代码
 ```python
@@ -29,10 +25,3 @@ void main()
 	cout << "Hello World" << endl;
 }
 ```
-
-{{ site.data.TestList.docs_list_title }}
-
-{%  for  item  in  site.data.TestList.docs  %} 
-	- [{{item.tile}}](https://www.baidu.com/)
-{%  endfor  %}
-
