@@ -1,6 +1,5 @@
 ---
 title: "首页测试"
-layout: home
 author_profile: true
 toc : true 
 toc_label: "自定义菜单" 
