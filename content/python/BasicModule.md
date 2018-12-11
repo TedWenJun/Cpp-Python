@@ -6,7 +6,7 @@ title: "Baisc Module"
 
 <a>{{page.path}}</a>
 
-1st update
+2st update
 
 # Python Basic Module
 ```Python
