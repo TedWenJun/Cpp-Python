@@ -6,9 +6,9 @@ toc_label: "自定义菜单"
 toc_icon: "fas fa-bars"
 
 sidebar:
-	nav: "docs"
+    nav: "docs"
 header:
-	image: assets/images/HomeBanner.jpg
+    image: assets/images/HomeBanner.jpg
 
 ---
 
