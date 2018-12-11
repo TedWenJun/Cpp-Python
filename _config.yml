@@ -298,3 +298,7 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# Banner Image
+header:
+  image: assets/images/HomeBanner.jpg
