@@ -10,7 +10,7 @@ main:
     url: 
 
 # Side Menu Table
-  docs:
+docs:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
