@@ -6,9 +6,9 @@ author_profile: true
 
 ---
 
-这是第6次测试
+这是第8次测试
 
-- [LinkToAbout](docs/_docs/quick-start-guide.md)
+- [LinkToAbout](docs/quick-start-guide.md)
 - [LinkToP1](content/CPP/P1.md)
 - [LinkToP2](content/Python/P2.md)
 
