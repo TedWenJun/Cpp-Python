@@ -4,6 +4,8 @@ layout: single
 
 author_profile: true
 
+classes: wide
+
 ---
 
 这是第10次测试
