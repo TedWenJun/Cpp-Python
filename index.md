@@ -15,7 +15,7 @@ header:
 
 ## 这是第17次测试
 
-- [LinkToAbout](www.baidu.com)
+- [LinkToAbout](https://www.baidu.com)
 - [Python Basic]({{%link content/python/BasicModule.md%}})
 - [LinkToP2](content/Python/P2.md)
 
