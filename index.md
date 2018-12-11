@@ -14,7 +14,7 @@ header:
 
 ## 这是第15次测试
 
-- [LinkToAbout]({{ "/docs/layouts/" | relative_url }})
+- [LinkToAbout]({{ "/docs/configuration/"}})
 - [LinkToP1](content/CPP/P1.md)
 - [LinkToP2](content/Python/P2.md)
 
