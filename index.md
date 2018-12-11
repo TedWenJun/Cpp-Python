@@ -6,8 +6,9 @@ author_profile: true
 
 toc : true 
 
-toc_label: true 
+toc_label: "自定义菜单" 
 
+toc_icon: "cog"
 
 ---
 
@@ -40,5 +41,5 @@ void main()
 这里是笔记信息
 {: .notice--info}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mzk4OTM3NDldfQ==
+eyJoaXN0b3J5IjpbNzYzMDc4MDEwXX0=
 -->
