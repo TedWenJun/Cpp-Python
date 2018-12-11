@@ -1,4 +1,4 @@
---
+---
 
 layout: home
 
@@ -6,11 +6,12 @@ author_profile: true
 
 ---
 
-这是第7次测试
+这是第8次测试
 
-- [LinkToAbout](docs/about.md)
+- [LinkToAbout](docs/quick-start-guide.md)
 - [LinkToP1](content/CPP/P1.md)
 - [LinkToP2](content/Python/P2.md)
+
 
 本段是Python 的测试代码
 ```python
@@ -26,4 +27,3 @@ void main()
 	cout << "Hello World" << endl;
 }
 ```
-
