@@ -11,11 +11,12 @@ header:
 
 ---
 
+{{site.baseurl}}
 
 ## 这是第16次测试
 
-- [LinkToAbout]({{ "/docs/configuration/"}})
-- [Python Basic]({{"/python/Basic/"}})
+- [LinkToAbout]({%link  %})
+- [Python Basic]({{%link content/python/BasicModule.md%}})
 - [LinkToP2](content/Python/P2.md)
 
 

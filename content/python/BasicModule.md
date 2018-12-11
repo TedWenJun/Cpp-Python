@@ -4,7 +4,7 @@ title: "Baisc Module"
 
 ---
 
-{{page.url}}
+{{page.path}}
 
 {{page.title}}
 
