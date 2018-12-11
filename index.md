@@ -13,9 +13,9 @@ header:
 
 {{site.baseurl}}
 
-## 这是第16次测试
+## 这是第17次测试
 
-- [LinkToAbout]({%link  %})
+- [LinkToAbout](www.baidu.com)
 - [Python Basic]({{%link content/python/BasicModule.md%}})
 - [LinkToP2](content/Python/P2.md)
 
