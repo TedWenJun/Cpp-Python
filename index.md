@@ -1,6 +1,6 @@
 ---
 
-layout: home
+layout: default
 
 author_profile: true
 
@@ -8,7 +8,7 @@ author_profile: true
 
 这是第8次测试
 
-- [LinkToAbout]({{ "/docs/layouts/#home-page" | relative_url }})
+- [LinkToAbout]({{ "/docs/layouts/" | relative_url }})
 - [LinkToP1](content/CPP/P1.md)
 - [LinkToP2](content/Python/P2.md)
 
