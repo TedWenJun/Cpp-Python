@@ -10,13 +10,13 @@ header:
   image: assets/images/HomeBanner.jpg
 
 ---
-
+{{page.path}}
 {{site.baseurl}}
 
 ## 这是第17次测试
 
 - [LinkToAbout](https://www.baidu.com)
-- [Python Basic]({{%link content/python/BasicModule.md%}})
+- [Python Basic]({{content/python/BasicModule.md}})
 - [LinkToP2](content/Python/P2.md)
 
 
