@@ -2,9 +2,11 @@
 title: "Baisc Module"
 #layout: single
 
-permalink: /python/Basic/
-
 ---
+
+{{page.url}}
+
+{{page.title}}
 
 # Python Basic Module
 ```Python
