@@ -1,6 +1,6 @@
 ---
 title: "首页测试"
-layout: ho
+layout: home
 author_profile: true
 toc : true 
 toc_label: "自定义菜单" 
@@ -37,5 +37,5 @@ void main()
 这里是笔记信息
 {: .notice--info}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTcwMjc4MSwtMjQ0ODkxMzY0XX0=
+eyJoaXN0b3J5IjpbLTIzMzMwMDU3MSwtMjQ0ODkxMzY0XX0=
 -->
