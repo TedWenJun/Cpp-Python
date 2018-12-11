@@ -127,13 +127,7 @@ author:
       # url: "https://instagram.com/"
 
 # Side Bar
-sidebar:
-  - title: "Title"
-    image: http://placehold.it/350x250
-    image_alt: "image"
-    text: "Some text here."
-  - title: "Another Title"
-    text: "More text here."
+
 
 
 # Site Footer
@@ -300,4 +294,5 @@ defaults:
       related: true
 
 # Banner Image
-
+header:
+  image: assets/images/HomeBanner.jpg

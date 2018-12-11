@@ -6,8 +6,14 @@ toc : true
 toc_label: "自定义菜单" 
 toc_icon: "fas fa-bars"
 
-header:
-  image: assets/images/HomeBanner.jpg
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+
 ---
 
 
