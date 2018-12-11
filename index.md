@@ -3,10 +3,9 @@
 layout: single
 
 author_profile: true
-
 toc : true 
-
 toc_label: "自定义菜单" 
+toc_icon: "fas fa-bars"
 
 ---
 
@@ -39,5 +38,5 @@ void main()
 这里是笔记信息
 {: .notice--info}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTM3MjVdfQ==
+eyJoaXN0b3J5IjpbNTcxMzA0MTU1XX0=
 -->
