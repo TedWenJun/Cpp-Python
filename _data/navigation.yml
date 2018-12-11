@@ -4,7 +4,7 @@ main:
     url:
 
   - title: "C++"
-    url: docs/
+    url: {{docs/docs/quick-start-guide.md}}
 
   - title: "Python"
     url: 
