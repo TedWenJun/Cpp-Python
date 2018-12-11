@@ -8,8 +8,6 @@ toc : true
 
 toc_label: "自定义菜单" 
 
-toc_icon: "cog"
-
 ---
 
 
@@ -40,3 +38,6 @@ void main()
 
 这里是笔记信息
 {: .notice--info}
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE4MTM3MjVdfQ==
+-->
