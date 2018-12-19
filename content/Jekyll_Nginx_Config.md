@@ -76,12 +76,14 @@ gem -v # 2.5.2.1
 {: .notice--warning}
 
  -  #### 1.2  修改通过gem安装ruby工具包的默认路径为当前tedblog用户路径，实现方法为修改~/.bashrc文件
+
 ```shell
 echo  '# Install Ruby Gems to ~/gems'  >> ~/.bashrc 
 echo  'export GEM_HOME="$HOME/gems"'  >> ~/.bashrc 
 echo  'export PATH="$HOME/gems/bin:$PATH"'  >> ~/.bashrc 
 source ~/.bashrc
 ```
+
 - #### 1.3 通过gem安装Jekyll
 
 ```shell
@@ -125,11 +127,11 @@ Configuration file: /home/tedblog/myblog/_config.yml
 ## 三、配置Nginx服务器
 Nginx是一款功能强悍的轻量web服务器程序，我将使用Nginx来为jekyll生成的静态网站提供web服务。
 
-- #### 3.1 安装nginx
+- ### 3.1 安装nginx
 ```shell
 sudo apt install nginx
 ```
-- #### 3.2 配置nginx
+- ### 3.2 配置nginx
 nginx的配置文件路径为 /etc/nginx/sites-enabled/default
 ```shell
 sudo vim /etc/nginx/sites-enabled/default
