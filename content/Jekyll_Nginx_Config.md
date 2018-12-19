@@ -38,7 +38,7 @@ touch .ssh/authorized_keys && chmod 600 .ssh/authorized_keys #新建公钥文件
 使用git bash的好处是可以在任意平台使用ssh-copy-id命令来远程推送public RSA key，省去了手动配置的环节。
 
 - 生成密钥对
-```shell
+```console
 ssh-keygen -t rsa
 ```
 
@@ -148,6 +148,9 @@ sudo vim /etc/nginx/sites-enabled/default
 > - root: /home/tedblog/myblog/_site     修改网站根目录
 > - server_name: www.palelight.cn  修改网站域名
 
+## 四、Git自动部署
+网站的部署工具和方法有很多，这里使用git作为部署和版本管理工具，能够兼顾github的使用
 
+参考资料：https://jekyllrb.com/docs/deployment/automated/
 
 
