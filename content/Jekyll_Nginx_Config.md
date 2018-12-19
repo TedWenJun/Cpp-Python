@@ -107,6 +107,7 @@ cd myblog
 bundle exec jekyll serve
 ```
 - #### 2.3  查看jekyll serve开启服务信息
+
 ```shell
 jekyll serve
 
@@ -122,6 +123,7 @@ Configuration file: /home/tedblog/myblog/_config.yml
     Server address: http://127.0.0.1:4000/
   Server running... press ctrl-c to stop.
 ```
+
 通过ssl远程链接配置的时候，可以配合一些http抓包工具来分析
 
 ## 三、配置Nginx服务器
