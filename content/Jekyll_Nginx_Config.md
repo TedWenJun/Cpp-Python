@@ -110,7 +110,8 @@ bundle exec jekyll serve
 
 ```shell
 jekyll serve
-
+```
+```
 #能看到以下信息
 Configuration file: /home/tedblog/myblog/_config.yml
             Source: /home/tedblog/myblog
@@ -125,6 +126,7 @@ Configuration file: /home/tedblog/myblog/_config.yml
 ```
 
 通过ssl远程链接配置的时候，可以配合一些http抓包工具来分析
+
 
 ## 三、配置Nginx服务器
 Nginx是一款功能强悍的轻量web服务器程序，我将使用Nginx来为jekyll生成的静态网站提供web服务。
