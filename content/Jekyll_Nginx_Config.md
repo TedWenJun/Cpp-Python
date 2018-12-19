@@ -75,7 +75,8 @@ gem -v # 2.5.2.1
 如果sudo提示 "tedblog is not in the sudoers file.  This incident will be reported." ，则需要提升当前用户的权限。常用方法有两种：在root下将用户添加到sudo/admin用户组，adduser username sudo或者adduser username admin；另一种方法为修改/etc/sudoers权限配置文件。具体方法参考:https://www.tecmint.com/fix-user-is-not-in-the-sudoers-file-the-incident-will-be-reported-ubuntu/
 {: .notice--warning}
 
- -  #### 1.2  修改通过gem安装ruby工具包的默认路径为当前tedblog用户路径，实现方法为修改~/.bashrc文件
+ -  #### 1.2  修改gem安装工具包的默认路径
+将默认路径修改为当前tedblog用户路径，实现方法为修改~/.bashrc文件
 
 ```shell
 echo  '# Install Ruby Gems to ~/gems'  >> ~/.bashrc 
