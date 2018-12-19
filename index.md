@@ -18,7 +18,7 @@ header:
 
 - [LinkToAbout](https://www.baidu.com)
 - [Python Basic](content/python/BasicModule.md)
-- [LinkToP2](content/Jekyll_.md)
+- [LinkToP2](content/Jekyll_Nginx_Config.md)
 
 ## 本段是Python 的测试代码
 ```python
@@ -41,5 +41,5 @@ include <iostream>
 这里是笔记信息
 {: .notice--info}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDYyMzE4MywxMjAxMjU4NDMwXX0=
+eyJoaXN0b3J5IjpbLTEyMzAxMjY4MDgsMTIwMTI1ODQzMF19
 -->
