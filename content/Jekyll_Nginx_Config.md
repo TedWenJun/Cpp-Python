@@ -59,16 +59,19 @@ jekyll作为轻量高效的静态网站生成引擎，基于Ruby开发，拥有�
 
 当前用户为tedblog，如果是root用户可以先切换大新建用户。不在root下安装的原因在于root安装的工具包有些无法在非root用户访问到。需要root权限的时候，随时sudo切换即可。
 
+---
 ### 1、安装jekyll包和依赖
 
 - #### 1.1 安装完整的ruby包及其常用的依赖工具，例如ruby gem包管理器
 
 ```shell
 sudo  apt install ruby-full build-essential zlib1g-dev
+
 #安装完后可以查看ruby和Gem版本信息确认安装成功
 ruby -v # ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]
 gem -v # 2.5.2.1
 ```
+
 如果sudo提示 "tedblog is not in the sudoers file.  This incident will be reported." ，则需要提升当前用户的权限。常用方法有两种：在root下将用户添加到sudo/admin用户组，adduser username sudo或者adduser username admin；另一种方法为修改/etc/sudoers权限配置文件。具体方法参考:https://www.tecmint.com/fix-user-is-not-in-the-sudoers-file-the-incident-will-be-reported-ubuntu/
 {: .notice--warning}
 
@@ -80,13 +83,16 @@ echo  'export PATH="$HOME/gems/bin:$PATH"'  >> ~/.bashrc
 source ~/.bashrc
 ```
 - #### 1.3 通过gem安装Jekyll
+
 ```shell
 gem install jekyll bundler
 
 ls ~/gems/bin #可以看到gem已安装包，说明安装路径修改成功
 ```
+
 至此，jekyll的工具环境就安装完成，下面来通过Jekyll简单配置默认的博客环境，用来测试
 
+---
 ### 2、搭建jekyll的测试网站
 - #### 2.1 在指定路径下面新建博客站点，这里我们建在/home/tedblog下面，博客名为myblog
 ```shell
@@ -116,7 +122,7 @@ Configuration file: /home/tedblog/myblog/_config.yml
 ```
 通过ssl远程链接配置的时候，可以配合一些http抓包工具来分析
 
-### 3、配置Nginx服务器
+## 三、配置Nginx服务器
 Nginx是一款功能强悍的轻量web服务器程序，我将使用Nginx来为jekyll生成的静态网站提供web服务。
 
 - #### 3.1 安装nginx
