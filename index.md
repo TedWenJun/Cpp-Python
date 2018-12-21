@@ -2,19 +2,23 @@
 title: "首页测试"
 layout: single
 author_profile: true
-toc : true 
-toc_label: "自定义菜单" 
+toc : true
+toc_label: "自定义菜单"
 toc_icon: "fas fa-bars"
+
+header:
+  image: assets/images/HomeBanner.jpg
 
 ---
 
+{{page.path}}
+{{site.baseurl}}
 
-## 这是第15次测试
+## 这是第17次测试
 
-- [LinkToAbout]({{ "/docs/layouts/" | relative_url }})
-- [LinkToP1](content/CPP/P1.md)
-- [LinkToP2](content/Python/P2.md)
-
+- [LinkToAbout](https://www.baidu.com)
+- [Python Basic](content/python/BasicModule.md)
+- [LinkToP2](content/Jekyll_Nginx_Config.md)
 
 ## 本段是Python 的测试代码
 ```python
@@ -24,8 +28,8 @@ print (sys.version())
 
 ## 本段是C++的测试代码
 ```cpp
-include <iostream>
 void main()
+include <iostream>
 {
 	cout << "Hello World" << endl;
 }
@@ -37,5 +41,5 @@ void main()
 这里是笔记信息
 {: .notice--info}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzMwMDU3MV19
+eyJoaXN0b3J5IjpbLTEyMzAxMjY4MDgsMTIwMTI1ODQzMF19
 -->

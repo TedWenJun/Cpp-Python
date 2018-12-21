@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # theme                  : "minimal-mistakes-jekyll"
-#remote_theme            : "mmistakes/minimal-mistakes"
+remote_theme            : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "sunrise" #"default" "air", "aqua", "contrast","dark" , "dirt", "neon", "mint", "plum", "sunrise"
 # Site Settings
 locale                   : "en-US"
@@ -96,40 +96,6 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Author
-author:
-  name             : "Ted Zhang"
-  avatar           : "/assets/images/logo.jpg"
-  bio              : "VFX/Game Program Developing Based On C++ And Python"
-  location         : "Beijing, China"
-  email            : #"948491106@qq.com"
-  links:
-    - label: "Wechat"
-      icon: "fab fa-fw fa-weixin"
-      url:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      #url: mailto:your.name@email.com
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-
-# Side Bar
-
-
-
 # Site Footer
 footer:
   links:
@@ -156,7 +122,7 @@ footer:
 # Reading Files
 include:
   - .htaccess
-  - _pages
+  - /python/
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -181,9 +147,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  # - /content
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -218,7 +181,7 @@ sass:
 
 
 # Outputting
-# permalink: /:categories/:title/
+# permalink: /python/:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -282,19 +245,16 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # pages
   - scope:
-      path: ""
+      path: "python"
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
       related: true
       sidebar:
-        nav: "docs"
-      toc: true
-      toc_label: "Python"
-      toc_icon: "fas fa-bars"
+        nav: "python"
