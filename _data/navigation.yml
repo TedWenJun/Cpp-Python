@@ -4,9 +4,12 @@ main:
     url:
 
   - title: "C++"
-    url: {{docs/docs/quick-start-guide.md}}
+    url: {{/content/Jekyll_Nginx_Config.md}}
 
   - title: "Python"
+    url:
+
+  - title: "test"
     url:
 
 # Side Menu Table
@@ -15,12 +18,6 @@ docs:
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
 
 python:
   - title: Basic Module

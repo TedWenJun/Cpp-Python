@@ -11,14 +11,7 @@ header:
   
 ---
 
-{{page.path}}
-{{site.baseurl}}
-
-## 这是第17次测试
-
-- [LinkToAbout](https://www.baidu.com)
-- [Python Basic](content/python/BasicModule.md)
-- [LinkToP2](content/Jekyll_Nginx_Config.md)
+# 数据库正在维护中····
 
 ## 本段是Python 的测试代码
 ```python
@@ -34,12 +27,3 @@ include <iostream>
 	cout << "Hello World" << endl;
 }
 ```
-
-这里是提示信息
-{: .notice--warning}
-
-这里是笔记信息
-{: .notice--info}
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2OTg0ODE2OCwxMjAxMjU4NDMwXX0=
--->
