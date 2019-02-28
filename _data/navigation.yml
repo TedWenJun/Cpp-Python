@@ -4,7 +4,7 @@ main:
     url:
 
   - title: "C++"
-    url: {{/content/Jekyll_Nginx_Config.md}}
+    url: /content/Jekyll_Nginx_Config.md
 
   - title: "Python"
     url:
